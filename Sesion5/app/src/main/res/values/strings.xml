@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sesion5</string>
+    <string-array name="opcionesEscolaridad">
+        <item>Bachillerato</item>
+        <item>Tecnico</item>
+        <item>Licenciatura</item>
+        <item>Maestria</item>
+        <item>Doctorado</item>
+    </string-array>
+    <string name="inputNombre">Ingrese su nombre</string>
+    <string name="inputTelefono">Ingrese su teléfono</string>
+    <string name="inputEscolaridad">Escolaridad</string>
+    <string name="inputGenero">Genero</string>
+    <string name="inputGeneroFemenino">Femenino</string>
+    <string name="inputGeneroMasculino">Masculino</string>
+    <string name="inputLibroFavorito">Libro favorito</string>
+    <string name="inputPracticaDeporte">Practica deporte</string>
+    <string name="btnLimpiar">Limpiar</string>
+</resources>
