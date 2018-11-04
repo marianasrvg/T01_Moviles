@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Sesion5</string>
+    <string name="app_name">Tarea 1</string>
     <string-array name="opcionesEscolaridad">
         <item>Bachillerato</item>
         <item>Tecnico</item>

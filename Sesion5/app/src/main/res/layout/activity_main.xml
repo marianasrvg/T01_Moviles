@@ -3,8 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding">
+
 
     <EditText
         android:id="@+id/activity_main_name"
@@ -28,8 +29,8 @@
         android:layout_below="@id/activity_main_phone"
         android:text="@string/inputEscolaridad"
         android:textColor="@color/colorTypography"
-        android:textSize="8pt"
-        android:layout_marginTop="6dp"/>
+        android:textSize="@dimen/main_textSize"
+        android:layout_marginTop="@dimen/maginTop"/>
 
     <Spinner
         android:id="@+id/activity_main_spinner_escolaridad"
@@ -45,8 +46,8 @@
         android:layout_below="@id/activity_main_spinner_escolaridad"
         android:text="@string/inputGenero"
         android:textColor="@color/colorTypography"
-        android:textSize="8pt"
-        android:layout_marginTop="6dp"/>
+        android:textSize="@dimen/main_textSize"
+        android:layout_marginTop="@dimen/maginTop"/>
 
     <RadioGroup
         android:id="@+id/activity_main_radiogroup_genero"
@@ -59,12 +60,12 @@
             android:layout_height="wrap_content"
             android:text="@string/inputGeneroFemenino"
             android:checked="true"
-            android:textSize="8pt" />
+            android:textSize="@dimen/main_textSize" />
         <RadioButton
             android:id="@+id/activity_main_masculino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="8pt"
+            android:textSize="@dimen/main_textSize"
             android:text="@string/inputGeneroMasculino"/>
     </RadioGroup>
 
@@ -75,8 +76,8 @@
         android:layout_below="@id/activity_main_radiogroup_genero"
         android:text="@string/inputLibroFavorito"
         android:textColor="@color/colorTypography"
-        android:textSize="8pt"
-        android:layout_marginTop="6dp"/>
+        android:textSize="@dimen/main_textSize"
+        android:layout_marginTop="@dimen/maginTop"/>
 
     <AutoCompleteTextView
         android:id="@+id/activity_main_textview_librofavorito"
