@@ -16,4 +16,7 @@
     <string name="inputLibroFavorito">Libro favorito</string>
     <string name="inputPracticaDeporte">Practica deporte</string>
     <string name="btnLimpiar">Limpiar</string>
+    <string name="alertDialog">Desea limpiar el contenido?</string>
+    <string name="alertDialogOk">Ok</string>
+    <string name="alertDialogCancelar">Cancelar</string>
 </resources>
